@@ -20,10 +20,12 @@ class HouseFaceApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
+    final t = AppLocalizations.of(context)!;
+
     return Consumer<LocaleProvider>(
       builder: (context, localeProvider, child) {
         return MaterialApp(
-          title: 'House Face',
+          title: t.appTitle,
           debugShowCheckedModeBanner: kDebugMode,
           locale: localeProvider.locale,
           localizationsDelegates: AppLocalizations.localizationsDelegates,
