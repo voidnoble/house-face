@@ -1,0 +1,10 @@
+{
+  "@@locale": "es",
+  "appTitle": "Casa Cara",
+  "mainPageTitle": "Página Principal",
+  "counterText": "Has presionado el botón tantas veces:",
+  "incrementTooltip": "Incrementar",
+  "welcome": "¡Bienvenido a Casa Cara!",
+  "language": "Idioma",
+  "settings": "Configuración"
+}

@@ -1,0 +1,10 @@
+{
+  "@@locale": "fr",
+  "appTitle": "Maison Visage",
+  "mainPageTitle": "Page Principale",
+  "counterText": "Vous avez appuyé sur le bouton autant de fois:",
+  "incrementTooltip": "Incrémenter",
+  "welcome": "Bienvenue à Maison Visage!",
+  "language": "Langue",
+  "settings": "Paramètres"
+}

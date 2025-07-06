@@ -1,0 +1,31 @@
+{
+  "@@locale": "en",
+  "appTitle": "House Face",
+  "@appTitle": {
+    "description": "The title of the application"
+  },
+  "mainPageTitle": "Main Page",
+  "@mainPageTitle": {
+    "description": "Title of the main page"
+  },
+  "counterText": "You have pushed the button this many times:",
+  "@counterText": {
+    "description": "Text displayed above the counter"
+  },
+  "incrementTooltip": "Increment",
+  "@incrementTooltip": {
+    "description": "Tooltip for the increment button"
+  },
+  "welcome": "Welcome to House Face!",
+  "@welcome": {
+    "description": "Welcome message"
+  },
+  "language": "Language",
+  "@language": {
+    "description": "Language selection label"
+  },
+  "settings": "Settings",
+  "@settings": {
+    "description": "Settings menu item"
+  }
+}

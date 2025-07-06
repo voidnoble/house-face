@@ -1,0 +1,10 @@
+{
+  "@@locale": "ko",
+  "appTitle": "하우스 페이스",
+  "mainPageTitle": "메인 페이지",
+  "counterText": "버튼을 이만큼 눌렀습니다:",
+  "incrementTooltip": "증가",
+  "welcome": "하우스 페이스에 오신 것을 환영합니다!",
+  "language": "언어",
+  "settings": "설정"
+}
