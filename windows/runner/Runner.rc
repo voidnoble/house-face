@@ -89,11 +89,11 @@ BEGIN
     BEGIN
         BLOCK "040904e4"
         BEGIN
-            VALUE "CompanyName", "com.example" "\0"
+            VALUE "CompanyName", "com.voidnoble" "\0"
             VALUE "FileDescription", "house_face" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
             VALUE "InternalName", "house_face" "\0"
-            VALUE "LegalCopyright", "Copyright (C) 2025 com.example. All rights reserved." "\0"
+            VALUE "LegalCopyright", "Copyright (C) 2025 com.voidnoble. All rights reserved." "\0"
             VALUE "OriginalFilename", "house_face.exe" "\0"
             VALUE "ProductName", "house_face" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
