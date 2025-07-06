@@ -45,31 +45,20 @@ class _HomePageState extends State<HomePage> {
         title: Text(t.mainPageTitle),
         actions: const [LanguageSelector()],
       ),
-      body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-            Padding(
-              padding: const EdgeInsets.all(16.0),
-              child: Text(
-                t.welcome,
-                style: Theme.of(context).textTheme.headlineSmall,
-                textAlign: TextAlign.center,
-              ),
-            ),
-            const SizedBox(height: 32),
-            Text(
-              t.counterText,
-              style: Theme.of(context).textTheme.bodyLarge,
-              textAlign: TextAlign.center,
-            ),
-            const SizedBox(height: 8),
-            Text(
-              '$_counter',
-              style: Theme.of(context).textTheme.headlineMedium,
-            ),
-          ],
-        ),
+      body: Builder(
+        builder: (context) {
+          if (!_hasPermission) {
+            return _buildPermissionSheet();
+          }
+
+          return Column(
+            children: [
+              _buildmanualReader(),
+              SizedBox(height: 45),
+              _buildCompass(),
+            ],
+          );
+        },
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: _incrementCounter,
